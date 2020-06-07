@@ -1,0 +1,7 @@
+STEPS FOLLOWED FOR CREATING A BLOCK OF ALL CONTENT TYPES
+=========================================================
+STEP1: Created a Taxonomy (Add Vocabulary with title Types) 
+STEP2: Created a lists of terms (ie:article, basic, english)
+STEP3: Added a field in each Content Type with the name (Types)
+STEP4: While adding contents to each content type select the appropiate type of their content type and click on save
+STEP5: Created a view and add the field anme with taxonomy Term (Content Types)

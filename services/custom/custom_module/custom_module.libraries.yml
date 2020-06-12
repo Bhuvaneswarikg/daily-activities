@@ -1,0 +1,9 @@
+custom_scripts:
+  header: false
+  js:
+    js/customdisplaytime.js: {}
+  css:
+    theme:
+      css/customdisplaytime.css: {}
+  dependencies:
+    - core/jquery 

@@ -1,0 +1,5 @@
+name: 'Custom Module test'
+type: module
+description: 'To show recent time'
+core: 8.x
+package: 'Custom'

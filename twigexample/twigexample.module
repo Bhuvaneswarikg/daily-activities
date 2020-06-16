@@ -1,0 +1,10 @@
+<?php
+
+function twigexample_theme() {
+  return array(
+   'twigexample_block' => array(
+            'variables' => array('title' => 'training', 'description' => 'cretaing block using twig'),
+            'template' => 'block--ws-custom',
+        ),
+  );
+}

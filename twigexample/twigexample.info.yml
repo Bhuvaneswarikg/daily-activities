@@ -1,0 +1,7 @@
+name: Twig Example
+type: module
+description: Twig Example drupal8
+core: 8.x
+package: Twig
+dependencies:
+  - block

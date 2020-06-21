@@ -1,0 +1,15 @@
+form_module.add:
+  path: /adddetails
+  defaults:
+    _form: 'Drupal\form_module\Form\AddDetails'
+    _title: 'Add Details'
+  requirements:
+    _permission: 'access content'
+
+form_module.edit:
+  path: /viewdetails
+  defaults:
+    _form: 'Drupal\form_module\Form\ViewDetails'
+    _title: 'View Requests'
+  requirements:
+    _permission: 'access content'

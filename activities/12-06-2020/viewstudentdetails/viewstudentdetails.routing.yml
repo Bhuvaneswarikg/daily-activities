@@ -1,0 +1,7 @@
+viewstudentdetails:
+  path: /studentdetails
+  defaults:
+    _form: 'Drupal\viewstudentdetails\Form\ViewDetails'
+    _title: 'Student details'
+  requirements:
+    _permission: 'access content'

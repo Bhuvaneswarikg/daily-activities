@@ -1,0 +1,12 @@
+name: training Example
+description: 'Creating username and email'
+type: module
+
+package: training
+# core: '8.x'
+configure: training_example.configuration
+
+version: '8.x-1.2'
+core: '8.x'
+project: 'example'
+

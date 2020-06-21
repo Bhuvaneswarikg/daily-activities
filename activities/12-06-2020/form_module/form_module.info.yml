@@ -1,0 +1,9 @@
+name: Form Module
+description: 'Module to add and manage data of students.'
+type: module    
+package: custom
+configure: form_module.configuration
+version: '8.x'
+core: '8.x'
+project: 'Assignment'
+

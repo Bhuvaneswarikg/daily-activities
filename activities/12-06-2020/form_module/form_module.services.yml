@@ -1,0 +1,5 @@
+services:
+  form_module.add:
+    class: 'Drupal\form_module\Services\FormServices'
+    arguments: ['@config.factory']
+    

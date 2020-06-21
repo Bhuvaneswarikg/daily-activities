@@ -1,0 +1,7 @@
+name: My Custom Time Block Example
+type: module
+description: Defines a Time custom block with plugin.
+core: 8.x
+package: Time Block
+dependencies:
+  - block

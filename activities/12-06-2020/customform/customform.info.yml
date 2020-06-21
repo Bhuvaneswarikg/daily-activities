@@ -1,0 +1,9 @@
+name: Custom Form Module
+description: 'Add Details of students'
+type: module    
+package: custom
+configure: customform.configuration
+version: '8.x'
+core: '8.x'
+project: 'Student'
+

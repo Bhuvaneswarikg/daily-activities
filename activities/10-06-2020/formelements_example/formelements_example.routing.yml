@@ -1,0 +1,7 @@
+formelements_example.formelements_example_add:
+  path: /formelements
+  defaults:
+    _form: 'Drupal\formelements_example\Form\ContentConfigSetting'
+    _title: 'Add Custom Configuration'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,7 @@
+training_example.training_example_add:
+  path: /training
+  defaults:
+    _form: 'Drupal\training_example\Form\ContentConfigSetting'
+    _title: 'Add Custom Configuration'
+  requirements:
+    _permission: 'access content'

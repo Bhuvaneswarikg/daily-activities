@@ -1,0 +1,9 @@
+studentform:  
+  path: '/student'  
+  defaults:  
+    _form: '\Drupal\studentform\Form\Registerform'  
+    _title: 'Registerform'  
+  requirements:  
+    _permission: 'access student pages'  
+  options:  
+    _admin_route: TRUE 

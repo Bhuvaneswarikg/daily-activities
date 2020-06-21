@@ -1,0 +1,9 @@
+name: View Student Details Module
+description: 'View Details of students'
+type: module    
+package: custom
+configure: viewstudentdetails.configuration
+version: '8.x'
+core: '8.x'
+project: 'Teacher'
+

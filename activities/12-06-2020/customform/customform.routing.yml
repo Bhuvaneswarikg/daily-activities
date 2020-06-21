@@ -1,0 +1,7 @@
+customform:
+  path: /formdetails
+  defaults:
+    _form: 'Drupal\customform\Form\Registerform'
+    _title: 'Fill your details'
+  requirements:
+    _permission: 'access content'

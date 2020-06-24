@@ -1,9 +1,0 @@
-time_scripts:
-  header: false
-  js:
-    js/displaytime.js: {}
-  css:
-    theme:
-      css/displaytime.css: {}
-  dependencies:
-    - core/jquery 

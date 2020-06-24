@@ -1,0 +1,21 @@
+id: banks
+label: Banks
+migration_group: migrate_training
+source:
+  plugin: banks
+  key: default
+destination:
+  plugin: entity:node
+process:
+  type:
+    plugin: default_value
+    default_value: article
+  title: name
+  body: description
+  field_tags:
+    plugin: migration
+    migration: branch
+    source: branch
+migration_dependencies:
+  required:
+    - branch

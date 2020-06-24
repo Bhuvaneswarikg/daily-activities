@@ -1,0 +1,13 @@
+id: branch
+label: Branch
+migration_group: migrate_training
+source:
+  plugin: branch
+  key: default
+destination:
+  plugin: entity:taxonomy_term
+process:
+  vid:
+    plugin: default_value
+    default_value: tags
+  name: name

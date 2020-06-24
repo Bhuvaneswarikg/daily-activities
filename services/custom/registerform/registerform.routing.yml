@@ -1,7 +1,0 @@
-registerform:
-  path: '/custom/register'
-  defaults:
-    _form: 'Drupal\registerform\Form\Registerform'
-    _title: 'Register the Form'
-  requirements:
-    _permission: 'access content'   

@@ -1,0 +1,7 @@
+event_form.event_dispatcher_form:
+  path: 'event-dispatch-form'
+  defaults:
+    _form: '\Drupal\event_form\Form\DemoEventDispatchForm'
+    _title: 'Event Dispatcher Form'
+  requirements:
+    _permission: 'access administration pages'

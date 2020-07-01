@@ -1,0 +1,36 @@
+
+userdata.userdata_controller_display:
+  path: '/userdata'
+  defaults:
+    _controller: '\Drupal\userdata\Controller\UserdataController::display'
+    _title: 'display'
+  requirements:
+    _permission: 'access content'
+
+userdata.userdata_form:
+  path: '/userdata/userformdetails'
+  defaults:
+    _form: '\Drupal\userdata\Form\UserdataForm'
+    _title: 'userdataForm'
+  requirements:
+    _access: 'TRUE'
+  
+
+userdata.display_table_controller_display:
+  path: '/userdata/userlisting'
+  defaults:
+    _controller: '\Drupal\userdata\Controller\DisplayTableController::display'
+    _title: 'display'
+  requirements:
+    _permission: 'access content'
+    
+userdata.user_form:
+  path: '/userdata/form/user'
+  defaults:
+    _controller: '\Drupal\userdata\Controller\DisplayUserDataController::display'
+    _title: 'User Details'
+  requirements:
+    _access: 'TRUE'
+
+
+  
